@@ -4,10 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [dark, setDark] = useState(false)
-
+  
   return (
-    <div className="grid">
+    <div className="grid" onClick={darkMode} style={style}>
       <div className="cell"></div>
       <div className="cell"></div>
       <div className="cell"></div>
